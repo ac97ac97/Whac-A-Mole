@@ -1,0 +1,66 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+    <LinearLayout
+        android:layout_marginTop="140dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+       <EditText
+           android:id="@+id/PhoneEd"
+           android:inputType="phone"
+           android:layout_marginTop="10dp"
+           android:layout_marginRight="30dp"
+           android:layout_marginLeft="10dp"
+           android:layout_height="50dp"
+           android:layout_width="0dp"
+           android:layout_weight="5"
+           android:hint="@string/PhoneEd"/>
+
+       <Button
+           android:id="@+id/getCode"
+           android:layout_height="50dp"
+           android:layout_width="0dp"
+           android:layout_below="@id/PhoneEd"
+           android:textColor="#ffffff"
+           android:layout_alignParentRight="true"
+           android:layout_marginTop="10dp"
+           android:layout_marginRight="30dp"
+           android:text="@string/getCode"
+           android:layout_weight="2"
+           android:background="@drawable/identity_drawable"/>
+   </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/Code"
+        android:layout_below="@id/PhoneEd"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="50dp"
+        android:hint="@string/Code"
+        android:inputType="text"
+        android:gravity="center"
+        android:background="@drawable/getcode_drawable"
+        android:layout_width="150dp"/>
+
+
+    <Button
+        android:id="@+id/Indentity"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/Indentity"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/identity_drawable"
+        android:layout_below="@id/getCode"/>
+    </LinearLayout>
+</RelativeLayout>

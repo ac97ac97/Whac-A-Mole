@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">打地鼠</string>
+    <string name="PhoneEd">请输入您的手机号码</string>
+    <string name="Code">请输入验证码</string>
+    <string name="getCode">获取验证码</string>
+    <string name="Indentity">开始游戏</string>
+</resources>
